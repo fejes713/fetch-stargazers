@@ -12,6 +12,14 @@ Problem with fetching all users via GitHub's API v3 is that I needed an HTTP cal
 ### Solution
 GitHub introduced GraphQL version of their API, which allows to query up to 100 users in a single request. The fetch-stargazers uses a new version of GitHub's API to efficiently query all stargazers and write them to a CSV file. 
 
+### How to use?
+
+1. Clone repository: `git@github.com:fejes713/fetch-stargazers.git`
+2. `npm install`
+3. `npm run` and fill in required configuration
+
+You can find access token, required to access API, under GitHub's account settings.
+
 
 
 
