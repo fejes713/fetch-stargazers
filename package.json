@@ -1,0 +1,29 @@
+{
+  "name": "fetch-stargazers",
+  "version": "1.0.0",
+  "description": "> Generate CSV file of all stargazers from one repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fejes713/fetch-stargazers.git"
+  },
+  "keywords": [
+    "utiliy",
+    "github",
+    "csv"
+  ],
+  "author": "Stefan Fejes (ns.fejes.stefan@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fejes713/fetch-stargazers/issues"
+  },
+  "homepage": "https://github.com/fejes713/fetch-stargazers#readme",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "node-fetch": "^2.6.0",
+    "prompt": "^1.0.0"
+  }
+}
